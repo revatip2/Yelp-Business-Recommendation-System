@@ -1,5 +1,5 @@
 # Recommenders Systems
 
- A. Item-based Collaborative Filtering recommendation system with Pearson similarity. 
- B. Model-based recommendation system (using XGBregressor_
- C. Hybrid Recommender System using Weighted Averages
+ 1. Item-based Collaborative Filtering recommendation system with Pearson similarity
+ 2. Model-based recommendation system (using XGBregressor)
+ 3. Hybrid Recommender System using Weighted Averages
