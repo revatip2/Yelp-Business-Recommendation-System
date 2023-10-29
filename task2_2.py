@@ -100,20 +100,6 @@ X_train = np.array(X_train, dtype='float32')
 Y_train = np.array(Y_train, dtype='float32')
 X_val = np.array(X_val, dtype='float32')
 
-# print("X_train shape:", X_train.shape)
-# print("Y_train shape:", Y_train.shape)
-# print("X_val shape:", X_val.shape)
-
-# param = {
-#     'max_depth': 21,
-#     'colsample_bytree': 0.7,
-#     'lambda': 7.6,
-#     'alpha': 0.0,
-#     'n_estimators': 250,
-#     'learning_rate': 0.01,
-#     'random_state': 42
-# }
-
 model_xgboost = XGBRegressor(
     min_child_weight=100,
     random_state=1234,
