@@ -19,3 +19,14 @@ This module implements an Item-Item Collaborative Filtering (CF) recommender sys
 - **Pearson Similarity**: Calculates the Pearson correlation between businesses based on common users' ratings.
 - **Prediction**: For each user-business pair in the validation set, predicts the rating using a weighted sum of similar businesses' ratings.
 - **Output**: Writes the predicted ratings for each user-business pair to the output file.
+
+## XGBoost Regressor-based Rating Prediction
+
+This module uses an XGBoost Regressor model to predict Yelp ratings based on user and business features.
+
+### Overview
+
+- **Data Preprocessing**: Loads and processes Yelp training and validation data, along with user and business metadata (from JSON files), extracting relevant features.
+- **Feature Engineering**: Constructs user and business-related features such as review count, average stars, and business review counts, alongside user ratings.
+- **Model Training**: Uses XGBoost Regressor to train a model based on the extracted features.
+- **Prediction**: Predicts ratings for the validation dataset.
