@@ -32,6 +32,8 @@ This module implements an Item-Item Collaborative Filtering (CF) recommender sys
 - **Prediction**: For each user-business pair in the validation set, predicts the rating using a weighted sum of similar businesses' ratings.
 - **Output**: Writes the predicted ratings for each user-business pair to the output file.
 
+python `collaborative_filtering.py <input_file_path> <validation_file_path> <output_file_path>`
+
 ### XGBoost Regressor-based Rating Prediction
 
 This module uses an XGBoost Regressor model to predict Yelp ratings based on user and business features.
@@ -42,6 +44,8 @@ This module uses an XGBoost Regressor model to predict Yelp ratings based on use
 - **Feature Engineering**: Constructs user and business-related features such as review count, average stars, and business review counts, alongside user ratings.
 - **Model Training**: Uses XGBoost Regressor to train a model based on the extracted features.
 - **Prediction**: Predicts ratings for the validation dataset.
+
+`python xgb.py <folder_path> <validation_file_path> <output_file_path>`
 
 ### Hybrid Recommendation System: Item-Based and Model-Based
 
