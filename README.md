@@ -1,4 +1,4 @@
-# Recommender System
+# Yelp Business Recommendation System: Personalized Suggestions for Users
 The Yelp Recommendation System delivers personalized business suggestions by leveraging users' preferences and past interactions with the platform. Using a combination of collaborative filtering methods and advanced machine learning models, the system ensures highly accurate and relevant recommendations.
 
 It consists of the following:
