@@ -65,10 +65,6 @@ $\text{combined prediction} = \alpha \times (\text{item-based prediction}) + (1 
 
 ## Results
 
-Error distribution:
+RMSE: 0.96
 
-=0 and <1: 101857 =1 and <2: 33300 =2 and <3: 6116 =3 and <4: 771 =4: 0
-
-RMSE: 0.9780393799890853
-
-Execution time: 1342.943686246872 seconds
+Execution time: 1100.34437926872 seconds
