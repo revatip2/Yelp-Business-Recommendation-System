@@ -16,6 +16,8 @@ This module implements Locality Sensitive Hashing (LSH) using Jaccard similarity
 - **LSH & Signature Matrix**: Applies LSH to reduce the dimensionality of the data and generates a signature matrix for efficient similarity estimation.
 - **Candidate Pairs & Jaccard Similarity**: Generates candidate business pairs and calculates their Jaccard similarity. Pairs with a similarity ≥ 0.5 are retained.
 
+Run the script with: `python local_sensitivity_hashing.py <input_file_path> <output_file_path>`
+
 ## 2. Recommendation System
 
 ### Pearson Similarity-based Collaborative Filtering
